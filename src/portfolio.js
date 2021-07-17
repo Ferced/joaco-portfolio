@@ -181,7 +181,7 @@ export const experience = [
     companylogo: galiciaLogo,
     date: 'Agosto 2018 – Actualidad',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      '',
     descBullets: [
       'Desarrollo de API Policy System',
       'Soporte y desarrollo del sistema Carga Centralizada de Tasas que se encarga de cambiar todas las tasas del banco.',
@@ -230,5 +230,9 @@ export const projects = [
   {
     name: "Aplicacion Demo para NetSafe",
     desc: "Aplicacion demo para publicidad de NetSafe.",
-  }
+    link: {
+      name:"Github",
+      url:"https://github.com/Ferced/app-Netsafe-demo"
+    }
+    }
 ]
