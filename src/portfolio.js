@@ -214,6 +214,18 @@ export const projects = [
   {
     name: "Pagina web para influencer",
     desc: "Pagina de cursos web que proveen los influencers para sus seguidores.",
+    link: {
+      name: "Noelia Sandoval",
+      url:"http://noeliasandoval.cursarweb.com/"
+    }
+  },
+  {
+    name: "Backtracking Knight's tour",
+    desc: "Demostracion del algoritmo de Backtracking.",
+    link: {
+      name: "Github",
+      url:"https://github.com/Ferced/Backtracking-Knight"
+    }
   },
   {
     name: "Aplicacion Demo para NetSafe",
