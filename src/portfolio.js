@@ -3,6 +3,7 @@ import emoji from 'react-easy-emoji';
 import galiciaLogo from './assets/img/icons/common/galiciaLogo.png'
 import cedeiraLogo from './assets/img/icons/common/cedeiraLogo.png'
 import logoMSM from './assets/img/icons/common/logoMSM.png'
+import logoMeli from './assets/img/icons/common/logoMeli.png'
 
 export const greetings = {
     "name": "Joaquin Fernandez Cedeira",
@@ -88,6 +89,10 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:python',
       },
       {
+        skillName: 'go',
+        fontAwesomeClassname: 'logos:go',
+      },
+      {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
       },
@@ -109,6 +114,10 @@ export const LanguageSkillBars = [
   },
   {
     Stack: 'C#',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Go',
     progressPercentage: '90',
   },
   {
@@ -141,13 +150,14 @@ export const SkillBars = [
       progressPercentage: '90', 
     },
     {
+      Stack: 'architecture',
+      progressPercentage: '90',
+    },
+    {
       Stack: 'Frontend/Design',
       progressPercentage: '70',
     },
-    {
-      Stack: 'architecture',
-      progressPercentage: '50',
-    },
+   
   ]
 
 export const educationInfo = [
@@ -176,10 +186,20 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: 'Backend Developer',
+    company: 'Mercado Libre',
+    companylogo: logoMeli,
+    date: 'Septiembre 2021 – Actualidad',
+    descBullets: [
+      'Fury team.',
+    ],
+  },
+  {
+    
     role: 'Full Stack Developer',
     company: 'Galicia',
     companylogo: galiciaLogo,
-    date: 'Agosto 2018 – Actualidad',
+    date: 'Agosto 2018 – Septiembre 2021',
     desc:
       '',
     descBullets: [
@@ -193,7 +213,7 @@ export const experience = [
     role: 'Front-End Developer',
     company: 'Cedeira Software Factory',
     companylogo: cedeiraLogo,
-    date: 'Agosto 2018 – Actualidad',
+    date: 'Agosto 2018 – Septiembre 2021',
     descBullets: [
       'Responsable de la creacion frontend para la aplicacion Facturas Electronicas.',
     ],
@@ -208,6 +228,7 @@ export const experience = [
       'Soporte y desarrollo del sistema GDP (Gestor De Proyectos) para la gestion de todos los proyectos del area.',
     ],
   },
+ 
 ]
 
 export const projects = [
